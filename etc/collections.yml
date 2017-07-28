@@ -1,0 +1,92 @@
+---
+collections:
+  - name: guest.phishtank_com 
+    type: DATA_SET
+    available: true
+    accept_all_content: true
+    supported_content:
+      - urn:stix.mitre.org:xml:1.1.1
+    service_ids:
+      - inbox
+      - collection
+      - poll
+  - name: guest.Abuse_ch 
+    type: DATA_SET
+    available: true
+    accept_all_content: true
+    supported_content:
+      - urn:stix.mitre.org:xml:1.1.1
+    service_ids:
+      - inbox
+      - collection
+      - poll
+  - name: guest.CyberCrime_Tracker 
+    type: DATA_SET
+    available: true
+    accept_all_content: true
+    supported_content:
+      - urn:stix.mitre.org:xml:1.1.1
+    service_ids:
+      - inbox
+      - collection
+      - poll
+  - name: guest.EmergingThreats_rules 
+    type: DATA_SET
+    available: true
+    accept_all_content: true
+    supported_content:
+      - urn:stix.mitre.org:xml:1.1.1
+    service_ids:
+      - inbox
+      - collection
+      - poll
+  - name: guest.Lehigh_edu 
+    type: DATA_SET
+    available: true
+    accept_all_content: true
+    supported_content:
+      - urn:stix.mitre.org:xml:1.1.1
+    service_ids:
+      - inbox
+      - collection
+      - poll
+  - name: guest.MalwareDomainList_Hostlist 
+    type: DATA_SET
+    available: true
+    accept_all_content: true
+    supported_content:
+      - urn:stix.mitre.org:xml:1.1.1
+    service_ids:
+      - inbox
+      - collection
+      - poll
+  - name: guest.blutmagie_de_torExits 
+    type: DATA_SET
+    available: true
+    accept_all_content: true
+    supported_content:
+      - urn:stix.mitre.org:xml:1.1.1
+    service_ids:
+      - inbox
+      - collection
+      - poll
+  - name: guest.dataForLast_7daysOnly 
+    type: DATA_SET
+    available: true
+    accept_all_content: true
+    supported_content:
+      - urn:stix.mitre.org:xml:1.1.1
+    service_ids:
+      - inbox
+      - collection
+      - poll
+  - name: guest.dshield_BlockList 
+    type: DATA_SET
+    available: true
+    accept_all_content: true
+    supported_content:
+      - urn:stix.mitre.org:xml:1.1.1
+    service_ids:
+      - inbox
+      - collection
+      - poll

@@ -1,0 +1,21 @@
+domain: "http://localhost:9898"
+support_basic_auth: yes
+
+persistence_api:
+  class: opentaxii.persistence.sqldb.SQLDatabaseAPI
+  parameters:
+    db_connection: "sqlite:////home/centos/opentaxii/data/auth.db"
+    create_tables: yes
+
+auth_api:
+  class: opentaxii.auth.sqldb.SQLDatabaseAPI
+  parameters:
+    db_connection: "sqlite:////home/centos/opentaxii/data/data.db"
+    create_tables: yes
+    secret: "@#L:KJDASLKJASD@"
+
+logging:
+  opentaxii: debug
+  root: info
+
+hooks:
